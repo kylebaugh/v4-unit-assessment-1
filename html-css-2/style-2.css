@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+.header1{
+    background-color: rgb(75, 206, 184);
+    font-size: inherit; color: black;    
+    width: 100%;
+    margin-bottom: -15px;
+}
+
+.header2{
+    background-color: white;
+    font-size: inherit; color: black;
+    margin-bottom: -15px;
+}
+
+.header3{
+    background-color: white;
+    font-size: inherit; color: black;
+    margin-bottom: -15px;
+}
+
+.header4{
+    background-color: white;
+    font-size: inherit; color: black;
+    margin-bottom: -15px;
+}
+
+#main1{
+    border-style: dotted; 
+    color: black;
+    padding: 10px;
+    width: 100%;
+    height: 180px;
+    display: inline-block;
+}
+
+#purple {
+    height: 75px;
+    width: 150px;
+    border-style: solid; color: rgb(255, 59, 59); size: 2px;
+    background-color: purple;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+
+}
+
+#blue {
+    height: 75px;
+    width: 75px;
+    background-color: blue;
+    box-shadow: 3px, 3px black;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+#pink {
+    height: 150px;
+    width: 150px;
+    background-color: palevioletred;
+    display: inline-block;
+
+}
+
+#main2{
+    border-style: dotted; 
+    color: black;
+    padding: 10px;    
+    width: 100%;
+    height: 300px;
+}
+
+#top-circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border-style: solid; color: black;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.left-eye {
+    display: inline;
+    clear: none;
+    padding-left: 10px;
+}
+
+.right-eye{
+    float: right;
+    display: inline;
+    padding-right: 10px;
+}
+
+.carrot {
+    display: inline-block;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+
+#middle-circle {
+    height: 90px;
+    width: 90px;
+    border: black;
+    border-radius: 50%;
+    border-style: solid; color: black;
+    display: block;
+    margin-left: 15px;
+}
+
+.top-button{
+    padding-left: 35px;
+    padding-top: 18px;
+}
+
+.middle-button{
+    padding-left: 35px;
+}
+
+.bottom-button{
+    padding-left: 35px;
+}
+
+#bottom-circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border-style: solid; color: black;
+}
+
+#main3{
+    border-style: dotted; 
+    color: black;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+#big-square {
+    height: 180px;
+    width: 180px;
+    border-style: solid; color: black;
+    background-color: burlywood;
+}
+
+#green-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border-style: solid; color: black;
+    background-color: rgb(14, 61, 14);
+}
+
+#square{
+    height: 100px;
+    width: 100px;
+    background-color: maroon;
+    margin-left: 23px;
+    margin-top: 23px;
+    text-align: center;
+    font-size: 16px; color: white; padding-top;
+}
+
+.blue-circle {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: blue;
+    padding-top: 12.5px;
+    vertical-align: top;
+}
