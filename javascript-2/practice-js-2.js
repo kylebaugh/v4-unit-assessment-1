@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = 'Git is a repository that helps you save your coding data and share it across devices'
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = 'See above???'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+let init = {
+    description: 'Initializes repository in GitHub',
+    code: 'git init'
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+let clone = {
+    description: 'Clones repository that has been forked from Git Hub to specified folder on device', 
+    code: 'git clone [insert URL here]'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+let status = {
+    description: 'Shows current status of Git respository',
+    code: 'git status'
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+let add = {
+    description: 'Adds specified folder to be ready to upload to GitHub',
+    code: 'git add [insert file path here]'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,11 @@
 
 //CODE HERE
 
+let commit = {
+    description: 'Commits changes to be submitted to GitHub',
+    code: 'git commit -m "[Comment changes here]"'
+}
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +104,11 @@
 
 //CODE HERE
 
+let addRemote = {
+    description: "I'm not really sure what this one does, but I'll look it up",
+    code: 'git remote add origin [URL]'
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +116,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: 'Pushes changes to repository on GitHub',
+    code: 'git push'
+}
